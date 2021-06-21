@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap');
+
+.wrapper {
+	max-width: 1284px;
+	margin: 0 auto;
+}
+
+/* Header starts */
+
+header {
+	position: fixed;
+	width: 100%;
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 59px;
+}
+
+.header-logo__heading {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+.logo-link:hover {
+	text-decoration: none;
+}
+
+.header-logo__heading:hover {
+	opacity: 0.85;
+	transform: scale(1.05);
+}
+
+.header__search {
+	margin-right: 148px;
+	background-color: #C4C4C4;
+	border-radius: 8px;
+	color: rgba(0, 0, 0, 0.74);
+	width: 290px;
+	padding: 6px 20px;
+}
+
+.header__search:hover {
+	background-color: #fff;
+}
+
+.login {
+	text-decoration: none;
+	color: #3D8ED9;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+.login:hover {
+	opacity: 0.85;
+}
+
+/*Header ends*/
+
+/*Intro starts*/
+
+.intro {
+	background-image: url(images/intro-bg.jpg);
+}
+
+.intro-content {
+	padding-top: 294px;
+	padding-bottom: 116px;
+}
+
+.media-carousel-searching, .playbill-films, .call-to-action-and-series, .call-to-action-and-series {
+	display: flex;
+	justify-content: space-between;
+}
+
+.carousel {
+	margin-top: 123px;
+	display: flex;
+	margin-bottom: -44px;
+}
+
+.card {
+	margin-left: 296px;
+	margin-right: 16px;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	opacity: 0.85;
+}
+
+.playbill-films {
+	margin-bottom: 32px;
+}
+
+.call-to-action {
+	display: flex;
+	align-items: flex-end;
+	background: #1A2728;
+	border-radius: 8px;
+	padding-top: : -36px;
+	padding-bottom: 71px;
+	padding-left: 44px;
+	padding-right: 22px; 
+}
+
+.call-to-action__titles {
+	margin-right: 48px;
+}
+
+.call-to-action__title {
+	display: flex;
+	align-items: flex-end;
+}
+
+.call-to-action__heading {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 34px;
+	color: #E5E5E5;
+}
+
+.popcorn {
+	margin-left: -10px;
+	margin-right: -28px;
+}
+
+.call-to-action__subheading {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #C4C4C4;
+}
+
+.call-to-action__btn {
+	background: #FFD840;
+	box-shadow: 0px 2px 6px #000000;
+	border-radius: 8px;
+	color: #fff;
+	padding: 24px 8px 20px 8px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.call-to-action__btn:hover {
+	background-color: #d9af0d;
+	transition: 0.2s linear;
+}
+
+.series {
+	margin-top: 72px;
+}
+
+.media-items, .searching-items, .playbill-items, .films-items, .series-items {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	margin-top: 13px;
+}
+
+.media-items:hover, .searching-items:hover, .playbill-items:hover, .films-items:hover, .series-items:hover {
+	opacity: 0.85
+}
+
+.series-link-blue, .films-link-blue, .searching-link-blue, .media-items-link-blue, .playbill-link-blue {
+	color: #3D8ED9;
+	text-decoration: none;
+}
+
+.media-items-link, .searching-link, .playbill-link, .films-link, .series-link {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Intro ends*/
+
+/*Login starts*/
+
+.login-page {
+	background-image: url(images/login-bg.jpg);
+	max-height: 100vh;
+}
+
+.login__content {
+	margin: 0 auto;
+	max-width: 580px;
+	padding-top: 109px;
+	padding-bottom: 100px;
+}
+
+.login__logo-heading {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 88px;
+	color: #1A2728;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.login__window {
+	background: #3D8ED9;
+	border-radius: 8px;
+	padding: 47px 36px 20px 36px;
+	margin: 0 auto;
+}
+
+.login__heading {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+}
+
+.input-login, .input-password {
+	background: #fff;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 22px 15px;
+	width: 508.93px;
+}
+
+.remember-login__link, .remember-password__link {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.remember-login__link {
+	margin-top: 6px;
+}
+
+.remember-password__link {
+	margin-top: 8px;
+}
+
+.login__button {
+	background: #F8D96D;
+	border-radius: 8px;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+	width: 508.93px;
+	padding-top: 23px;
+	padding-bottom: 22px;
+	margin-bottom: 25px;
+}
+
+.login__button:hover, .registration__button:hover {
+	transform: scale(1.05);
+}
+
+.registration__button {
+	background: #FFFFFF;
+	border-radius: 8px;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+	width: 508.93px;
+	padding-top: 23px;
+	padding-bottom: 22px;
+}
+
+/*Login ends*/
+
+/*Media intro starts*/
+
+.media-intro {
+	padding-top: 165px;
+}
+
+.media-intro-content {
+	background: #fff;
+	padding: 62px 137px 60px 27px;
+}
+
+.media__nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 62px;
+}
+
+.media__nav__heading {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 49px;
+	color: #000000;
+}
+
+.media__nav__elements {
+	display: flex;
+}
+
+.media__nav__item {
+	margin-left: 50px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	padding-bottom: 6px;
+}
+
+.media__nav__item:first-child {
+	margin-left: 0;
+}
+
+.item-active {
+	border-bottom: 1px solid #A83384;
+}
+
+.media-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-column__block-row {
+	display: flex;
+	margin-top: 50px;
+}
+
+.left__column-link {
+	max-width: 335px;
+	text-decoration: none;
+}
+
+.left__column-link:last-child {
+	margin-left: 19px;
+}
+
+.left-column__heading {
+	margin-top: 8px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.left-column__pic:hover {
+	transform: scale(1.05);
+	transition: 0.5s linear;
+}
+
+.media__right-column {
+	max-width: 397px;
+}
+
+.news__heading {
+	margin-bottom: 19px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.news-item {
+	margin-top: 49px;
+}
+
+.news-item:first-child {
+	margin-top: 49px;
+}
+
+.news-link {
+	text-decoration: none;
+}
+
+.news-link-heading {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	margin-bottom: 1px;
+	text-decoration: none;
+}
+
+.date-comment {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 2px;
+	margin-bottom: 11px;
+}
+
+.date {
+	margin-right: 13px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #545454;
+	text-decoration: none;
+}
+
+.news-line {
+	border: 1px solid #C4C4C4;
+	background-color: #C4C4C4;
+}
+
+/*Media intro ends*/
+
+/*Try starts*/
+
+.try-intro {
+	background-color: #FFD840;
+	padding-bottom: 50px;
+}
+
+.try-header {
+	padding-top: 60px;
+	padding-left: 80px;
+}
+
+.try-header-logo__heading {
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
+}
+
+.try-header-logo__heading:hover {
+	opacity: 0.85;
+}
+
+.try-link {
+	text-decoration: none;
+}
+
+.try-content {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.try-left-column {
+	padding-top: 200px;
+}
+
+.try-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 72px;
+	line-height: 88px;
+	color: #FFFFFF;
+}
+
+.try-subtitle {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	line-height: 60px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.try-desc {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 40px;
+	color: #545454;
+}
+
+.try-right-column {
+	margin-top: -70px;
+}
+
+
+.try-image {
+	margin-bottom: -340px;
+	z-index: 10;
+}
+
+.try-btn {
+	background: #3D8ED9;
+	box-shadow: 0px 4px 6px #125FA7;
+	border-radius: 8px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: -0.005em;
+	color: #FFFFFF;
+	padding: 26px 45px 22px 45px;
+	margin-left: 320px;
+	z-index: 1;
+}
+
+.try-btn:hover {
+	transform: scale(1.02);
+	transition: 0.5s linear;
+}
+
+/*Try ends*/
+
+
+/*WC starts*/
+
+.wc-header {
+	padding-top: 59px;
+	padding-left: 910px;
+}
+
+.wc-image {
+	width: 100vw;
+	margin-bottom: 32px;
+}
+
+.wc-link {
+	text-decoration: none;
+}
+
+/*WC ends*/
